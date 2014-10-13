@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+{
+    "artist": "${1:this}",
+    "title": "${2:snippet}",
+    "featuring": "${3:snippet}",
+    "genre": "${4:snippet}",
+    "bpm": "120",
+    "producer": "",
+    "publisher": "",
+    "artwork": "",
+    "youtube": ""
+ }
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>jsong</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

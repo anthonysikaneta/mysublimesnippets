@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+		div.form-group>label.control-label.col-md-2+div.col-md-10>div.btn-group>label.btn.btn-success*3>input
+		]]></content>
+	<tabTrigger>checkboxgroup</tabTrigger>
+	<description>Button Groups - Checkboxes</description>
+</snippet>

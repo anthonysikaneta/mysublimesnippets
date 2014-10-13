@@ -1,0 +1,114 @@
+<snippet>
+    <content><![CDATA[
+;(function(mooTools) {
+
+      'use strict';
+
+            var ClassName = function(inId, inOptions) {
+
+                        var postData = {};
+
+                        var options = Object.merge({
+                                    defaultIcon: 'ig-icon-default',
+                                    confirmIcon: 'ig-icon-confirm',
+                                    activeIcon: 'ig-icon-active'
+                        }, inOptions);
+                        var trigger = mooTools(inId);
+
+                        var userHasRead = false;
+
+                        var initialize = function() {
+                                    attachEvents();
+                        };
+
+                        var buildPostData = function() {
+                                    postData.hasRead = true;
+                        };
+
+                        var callAPI = function() {
+                                    new ApiPostClient = {
+                                                'postdata': postData,
+                                                'apipath': null, // waiting
+                                                'apimethod': null, // waiting
+                                                'fastsigner': true,
+                                                'onRequest': function() {
+
+                                                },
+                                                'onComplete': function() {
+
+                                                },
+                                                'onSucess': function(text, xml) {
+                                                            readActive();
+                                                },
+                                                'onFailure': function(text, xml) {
+
+                                                }
+                                    };
+                        };
+
+
+                        var readConfirm = function() {
+                                    trigger.addClass('ig-button-read-confirm');
+                                    trigger.getChildren('span:first-child').removeClass(options.defaultIcon).addClass(options.confirmIcon);
+                                    trigger.getChildren('span:last-child').set('html', options.confirmText);
+                                    userHasRead = true;
+                        };
+
+                        var readActive = function() {
+                                    trigger.removeClass('ig-button-read-confirm').addClass('ig-button-read-active');
+                                    trigger.getChildren('span:first-child').removeClass(options.defaultIcon, options.confirmIcon).addClass(options.activeIcon);
+                                    trigger.getChildren('span:last-child').set('html', options.activeText);
+                        };
+
+                        var attachEvents = function() {
+                                    trigger.addEvent('click', function(e) {
+                                                if(!userHasRead) {
+                                                            readConfirm();
+                                                } else {
+                                                            buildPostData();
+                                                            callAPI();
+                                                }
+                                    });
+                        };
+
+                        return initialize();
+
+            };
+
+            window.addEvent('domready', function(){
+                        if (Igloo && Igloo.asset_readTrackingButton) {
+                                    var elem;
+                                    if (!Igloo.ClassNames) {
+                                                Igloo.ClassNames = {};
+                                    }
+                                    Object.each(Igloo.asset_readTrackingButton, function(options, id){
+                                                elem = mooTools(id);
+                                                if (elem && options) {
+                                                            Igloo.ClassNames[id] = new ClassName(id, options);
+                                                }
+                                    });
+                        }
+            });
+
+            window.addEvent('bootstrap4finished', function(){
+                        if (window.dependents['readTrackingButton']) {
+                                    if (!Igloo.ClassNames) {
+                                                Igloo.ClassNames = {};
+                                    }
+                                    var options;
+                                    window.dependents['readTrackingButton'].each(function(elem){
+                                                options = elem['dataobj']['readTrackingButton'];
+                                                if (elem && options) {
+                                                            Igloo.ClassNames[elem.id] = new ClassName(elem.id, elem.dataobj['readTrackingButton']);
+                                                }
+                                    });
+                        }
+            });
+
+})(yourfavoriteparameters);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mooBam</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

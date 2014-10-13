@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+	#somemodal.modal.fade>.modal-dialog>.modal-content>(.modal-header>h4+a.close[href="#"]{&times;})+(.modal-body>p)+.modal-footer>button.btn.btn-success
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>modal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

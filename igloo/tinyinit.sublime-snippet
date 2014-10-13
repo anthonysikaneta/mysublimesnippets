@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+
+js.AddAsset("tinymce_init", "editor_area","{'id':'editor_area','height':'176px','type':'compact'}")
+<textarea class="js-tinymce js-tinymce-comment" name="message" id="editor_area" rows="4" cols="30"></textarea>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tinyinit</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

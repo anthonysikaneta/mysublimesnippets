@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+div.table-responsive>table.table.table-striped.table-bordered.table-hover.table-condensed>(thead>tr>th)+tr>th
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tabler</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

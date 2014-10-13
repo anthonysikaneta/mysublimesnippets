@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+          <div id="content">
+            
+          </div>
+          <textarea name="markup" id="markup" cols="30" rows="10"
+          ng-model="markup" ng-change="appendContent(markup)" markup-insert></textarea>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>testapp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+		.btn-group.btn-group-sm[data-toggle="buttons"]>label.btn.btn-success{$}*3+.btn-group.btn-group-sm>button.btn.btn-success[data-toggle="dropdown"]+ul.dropdown-menu>li*3>a{$}[href="#"]
+		]]></content>
+	<tabTrigger>btngroup</tabTrigger>
+	<description>Button Groups - Buttons</description>
+</snippet>

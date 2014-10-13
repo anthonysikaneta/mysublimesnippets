@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+    if (Igloo && Igloo.${1:classname}) {
+        Object.each(Igloo.${2:classname}, function(object, id) {
+            var elem = (id);
+            elem.addEvent('click', function (event) {
+
+                object.triggerId = id;
+                LazyLoad({
+                    parameters : object,
+                    element: elem,
+                    className : ${3:classname}
+                });
+
+                event.preventDefault();
+            });
+        }
+    }
+]]>
+</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lazy</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

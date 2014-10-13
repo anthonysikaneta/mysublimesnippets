@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[
+<!doctype html>
+<html lang="en" ng-app>
+<head>
+  <meta charset="utf-8">
+  <title>My Awesome App</title>
+  <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div id="home">
+      <header class="container"></header>
+      <section id="body" class="container">
+        <section id="main" class="col-md-8 col-sm-9">
+          <div></div>
+        </section>
+        <section id="sidebar" class="col-md-4 col-sm-3">
+          
+        </section>
+      </section>
+    </div>
+  </div>
+  <!-- Latest compiled and minified CSS & JS -->
+  <script src="//code.jquery.com/jquery.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>basic</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

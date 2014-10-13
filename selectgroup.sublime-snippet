@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+		div.form-group>label.control-label.col-md-2+div.col-md-10>select.form-control>option*3
+		]]></content>
+	<tabTrigger>selectgroup</tabTrigger>
+	<description>Button Groups - Select</description>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+window.addEvent('bootstrap4finished', function() {
+	var elements = window.dependents['${dependent:}'];
+	if (elements) {
+		elements.each(function(elem) {
+			if (elem.dataobj) {
+				Igloo.editors.include(elem.id, new tinymceInitHandler(Object.merge({}, elem.dataobj.${pluginname:})));
+			}
+		});
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bootstrap4finished</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

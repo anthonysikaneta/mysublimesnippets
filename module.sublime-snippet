@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+		var myModule = {
+			myProperty : "someValue",
+
+			myConfig : {
+				useCaching : true,
+				language : "en"
+			},
+
+			myMethod : function() {
+				console.log('kittens');
+			},
+
+			myMethod2 : function() {
+				console.log(this.myConfig.useCaching)
+			},
+
+			myMethod3 : function(newConfig) {
+				if(typeof newConfig === "object"){
+					this.myConfig = newConfig;
+					console.log(this.myConfig.language);
+				}
+			}
+		};
+		]]></content>
+	<tabTrigger>module</tabTrigger>
+	<description>JavaScript - Constructor Pattern</description>
+</snippet>

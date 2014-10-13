@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+.row>.col-sm-6.col-md-3>a[href="#"].thumbnail>img[data-src=""]+.caption>h3{title}+p{...}+p>a[href="#"].btn.btn-primary{Button}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>thumbnail</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

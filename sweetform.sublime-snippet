@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+	.row>form#someform.form-horizontal>(.form-group>(label.control-label.col-md-2{Your Name})+(.col-md-10>.input-group>(span.input-group-addon>span.glyphicon.glyphicon-chevron-down)+input.form-control+span.input-group-addon{!}))+(.form-group>label.control-label.col-md-2{Email}+.col-md-10>.input-group>span.input-group-addon{@}+input.form-control)+(.form-group>label.control-label.col-md-2{Message}+.col-md-10>textarea.form-control[placeholder="e.g. message"])+(.form-group>.col-md-10.col-md-offset-2>input)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sweetform</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

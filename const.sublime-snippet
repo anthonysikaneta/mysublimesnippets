@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+		//Each of the following will create a new empty object:
+		var newObject = {};
+		//or
+		var newObject = Object.create( null );
+		//or
+		var newObject = new Object();
+
+
+		//four ways keys and values can be assigned
+		//1. Dot syntax
+
+		newobject.somekey = "hello world"
+
+		//2. Square bracket syntax
+		newObject['someKey'] = "Hello world";
+
+		//3. Object.defineProperty
+		Object.defineProperty( newObject, "someKey", {
+			value : 'for more control',
+			writable : true,
+			enumarable : true,
+			configurable : true
+		});
+		]]></content>
+	<tabTrigger>const</tabTrigger>
+	<description>JavaScript - Constructor Pattern</description>
+</snippet>

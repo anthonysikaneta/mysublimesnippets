@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+.carousel.slide#theCarousel[data-interval="2000"]>(ol.carousel-indicators>li#theCarousel[data-slide="0"])+.carousel-inner>(.row>img.img-responsive.img-rounded+.carousel-caption>h4{TITLE}+p{...})+(a#theCarousel.carousel-control.left[data-slide="prev"]>span.icon-prev)+(a#theCarousel.carousel-control.right[data-slide="next"]>span.icon-next)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>carousel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

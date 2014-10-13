@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+html>head>meta+title+link*2+script*3
+.bs-example>.container>.row*3>.col-xs-3*3>a.thumbnail>img
+]]></content>
+	<!-- Hello, ${1:this} is a ${2:snippet}. -->
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>kickstart</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

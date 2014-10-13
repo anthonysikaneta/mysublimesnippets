@@ -1,0 +1,30 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AngularJS",
+		"AngularJS Snippets",
+		"Bootstrap 3 Snippets",
+		"Copy Relative Path",
+		"Emmet",
+		"HTMLBeautify",
+		"HtmlTidy",
+		"Http Requester",
+		"Indent XML",
+		"JavaScript Snippets",
+		"jQuery Snippets pack",
+		"JSONLint",
+		"LiveReload",
+		"Open Folder",
+		"Package Control",
+		"Pretty JSON",
+		"QML",
+		"Search Stack Overflow",
+		"SublimeGit",
+		"SublimeREPL",
+		"Telerik AppBuilder",
+		"TidyHTML5",
+		"View In Browser",
+		"xmllint"
+	]
+}

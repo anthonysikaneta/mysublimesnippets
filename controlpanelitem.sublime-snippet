@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+dt+(dd>div.ig-smallmarginleft>(div.ig-formitem.ig-smallmarginbottom>div.ig-radio.ig-classic>span>input[type='radio']+label.ig-nobold.ig-inline+span.icon.icon-info-icon-notext.ig-inlineblock.ig-normalmarginleft[title='Information'])*2)+dt+dd.ig-clearleft>div.separator
+]]></content>
+    <!-- Hello, ${1:this} is a ${2:snippet}. -->
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>control-panel-item</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

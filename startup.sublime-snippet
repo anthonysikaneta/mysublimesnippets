@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+    // Class
+    // ${1:ClassName} - 
+    // Parameter
+    // options - 
+    var ClassName = function (el, options) {
+
+        function extend( a, b ) {
+            for( var key in b ) { 
+                if( b.hasOwnProperty( key ) ) {
+                    a[key] = b[key];
+                }
+            }
+            return a;
+        }
+
+        ClassName.prototype._init = function(el, options) {
+            this.element = el;
+            this.options = extend( {}, options );
+            extend( this.options, options );
+            this.doSomething(this.element);
+        },
+
+        ClassName.prototype.doSomething = function(dom) {
+        	//do something
+        },
+
+        ClassName.prototype._init(el, options);
+    };
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>startup</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

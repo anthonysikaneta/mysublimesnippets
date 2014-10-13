@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+form[name="newModelForm"][novalidate][data-ng-submit="func()"]>fieldset>(div>label[for="prop"]{PROP}+input[name="prop"][type="text"][data-ng-model="newModel.prop"][required][data-ng-minlength="5"]+span.error{*}+span.error[data-ng-show="newModelForm.prop.$error.minlength"]{Minimum 5 characters}[data-ng-show="newModelForm.prop.$error.required"])*3+div>input[type="submit"][value="Save"][data-ng-disabled="newModelForm.$invalid"].btn+a[href="#/"].btn{Cancel}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ang-form</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+var apiRequest = new ApiClient({
+	'headers': { 'Accept': 'application/xml' },
+	'apibaseurl':'https://'+window.location.host,
+	'apimethod': '${1:igloo/widgets/rendercomponent}|community/view',
+	'method':'${2:methodtype}'
+	'queryparams': {
+		'paramList': 'objectId',
+		'paramTypes': 'id'
+	},
+	//e.g. 'postdata':'appId=FF55BFDA-6D62-4E82-B73E-2B0039B5CCBC&apiversion=1&community=productiontest&appPass=igloo123!'
+	'postdata': {
+	},
+	onRequest: function() {
+
+	},
+	onSuccess: function(text, xml) {
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>newapi</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+		div.page-header>ol.breadcrumb+h1>p.text-warning
+		]]></content>
+	<tabTrigger>pageheader</tabTrigger>
+	<description>Page Header & Breadcrumbs</description>
+</snippet>

@@ -1,0 +1,58 @@
+<snippet>
+	<content><![CDATA[
+		<h1>Contact Us</h1>
+			<p>This is how</p>
+			<div class="row">
+				<form action="" class="form-horizontal">
+					<div class="form-group">
+						<label for="username" class="controle-label col-md-2"></label>
+						<div class="col-md-10">
+							<input type="text" name="username" placeholder="name" class="form-control" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="emailaddress" class="controle-label col-md-2"></label>
+						<div class="col-md-10">
+							<input type="text" name="emailaddress" placeholder="name" class="form-control" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="fave" class="controle-label col-md-2"></label>
+						<div class="col-md-10">
+							<select name="fave" id="" class="form-control">
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+						</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="message" class="controle-label col-md-2">Message</label>
+						<div class="col-md-10">
+							<textarea name="message" id="" cols="30" rows="10" placeholder="name" class="form-control"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-md-10 col-md-offset-2">
+							<input type="submit" class="btn btn-success" />
+						</div>
+					</div>
+				</form>
+			</div>
+		<h3>Our fake address</h3>
+		<div>
+			<address>
+				1<br/>
+				1<br/>
+				1<br/>
+				<abbr title="Phone">P:</abbr>
+			</address>
+			<address>
+				<strong>section</strong>
+				<a href="mailto:fuck@fuckyou.com">link</a>
+			</address>
+		</div>
+		]]></content>
+	<tabTrigger>newform</tabTrigger>
+	<description>Form</description>
+</snippet>

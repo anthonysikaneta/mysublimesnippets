@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+Hello, ${1:this} is a ${2:snippet}.
+var text = document.querySelector("${1:target#}");
+var observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      var entry = {
+        mutation: mutation,
+        el: mutation.target,
+        value: mutation.target.textContent,
+        oldValue: mutation.oldValue
+      };
+      console.log("Recording mutation:", entry);
+    });
+  });
+
+observer.observe(text, {
+    attributes: true,
+    childList: true,
+    characterData: true,
+    characterDataOldValue: true,
+    subtree: true
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mutate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

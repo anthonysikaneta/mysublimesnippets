@@ -1,10 +1,9 @@
 <snippet>
     <content><![CDATA[
-<!-- use phrase instead of key to use params -->
-key[name='' usedbyjs='' params='']>en+ca+de+el+es+fr+it+pb+zh+ja+ru
+elem.dataobj = Object.merge(${1:elem.dataobj} || {}, ${2:dataobj});
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>trans</tabTrigger>
+    <tabTrigger>datamerge</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>

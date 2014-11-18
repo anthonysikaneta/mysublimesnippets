@@ -1,0 +1,7 @@
+#!/bin/sh
+npm install -g grunt-template-jasmine-requirejs
+npm install
+bower install
+grunt test
+grunt > ~/gruntlog
+e ~/gruntlog

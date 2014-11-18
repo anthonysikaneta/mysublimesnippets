@@ -1,0 +1,2 @@
+e .
+python -m http.server 9393

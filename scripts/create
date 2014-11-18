@@ -1,0 +1,8 @@
+#!/bin/sh
+mkdir new
+cd new
+mkdir css
+mkdir js
+e css/style.css
+e js/app.js
+e index.html

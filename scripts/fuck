@@ -1,0 +1,6 @@
+#!/bin/sh
+git checkout release/Release39 -f
+git pull
+reset
+#git branch --delete bugfix/BUGSONE-17
+#git checkout -b bugfix/BUGSONE-17 -f

@@ -1,10 +1,11 @@
 <snippet>
     <content><![CDATA[
-<!-- use phrase instead of key to use params -->
-key[name='' usedbyjs='' params='']>en+ca+de+el+es+fr+it+pb+zh+ja+ru
+collection = []; (${1:someclassorid}).map(function (idx, item) {
+  collection.push(item.${2:someproperty});
+});
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>trans</tabTrigger>
+    <tabTrigger>collect</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>

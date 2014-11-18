@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-console.log(${1:'comments'});
+console.log(${1:arguments.callee.caller.toString()});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>cons</tabTrigger>

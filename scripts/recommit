@@ -1,0 +1,2 @@
+git reset --soft HEAD^
+git commit -am "changes from feature/JavascriptUnitTesting."

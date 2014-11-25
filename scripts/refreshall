@@ -1,0 +1,20 @@
+git checkout feature/CustomWidget -f
+git clean -fdx
+git pull --rebase
+git pull origin development
+git checkout feature/Reservations -f
+git clean -fdx
+git pull --rebase
+git pull origin development
+git checkout FET-2 -f
+git clean -fdx
+git pull --rebase
+git pull origin development
+git checkout feature/JavascriptUnitTesting -f
+git clean -fdx
+git pull --rebase
+git pull origin development
+git checkout feature/ReservationTests -f
+git clean -fdx
+git pull --rebase
+git pull origin development

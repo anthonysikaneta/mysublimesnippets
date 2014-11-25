@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+for(key in ${1:data}) {
+    if(data.hasOwnProperty(key)) {
+        var value = data[key];
+        //do something with value;
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>getValue</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
